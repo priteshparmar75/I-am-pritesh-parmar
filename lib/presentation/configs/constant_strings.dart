@@ -1,4 +1,3 @@
-import 'package:atlas_icons/atlas_icons.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:pritesh/data/model/activity.dart';
 import 'package:pritesh/data/model/certificate.dart';
@@ -59,7 +58,7 @@ const String ksLetsWork = "Let's work together!";
 const String ksFreelanceAvailability = "I'm available for Freelancing";
 const String ksContactInfo = "- Contact Info";
 const String ksWorkEmail = "parmarpritesh75@gmail.com";
-const String ksWorkPhone = "+959 976294818";
+const String ksWorkPhone = "+91 7567671116";
 const String ksCreditTo = "- Big Thanks";
 const String ksDavidCobbina = "David Cobbina";
 const String ksDavidCobbinaWebsite = "https://davidcobbina.com/";
@@ -68,7 +67,7 @@ const String ksJuliusGWebsite =
     "https://www.behance.net/gallery/63574251/Personal-Portfolio-Website-Design";
 const String ksBuildUsing = "Build using ";
 const String ksWithMuch = " with much ";
-const String ksCC = "©️ 2023 Ye Lwin Oo";
+const String ksCC = "©️ 2025 Pritesh Parmar";
 const String ksYoung = "When I was young, I was a kid!";
 const String ksNobody = "I'm NOBODY";
 const String ksSpecialization =
@@ -389,6 +388,7 @@ final List<SocialMedia> ksSocialMedia = [
 
 const String _FLUTTER = 'Flutter';
 const String _DART = 'Dart';
+const String _GETX = 'GetX';
 const String _FIREBASE = 'Firebase';
 const String _HTML = 'Html';
 const String _CSS = 'Css';
@@ -397,6 +397,7 @@ const String _GRAPHQL = "GraphQL";
 const String _ME = 'Pritesh Parmar';
 
 const String _ANDROID = 'Android';
+const String _KOTLIN = 'Kotlin';
 const String _IOS = 'Ios';
 const String _WINDOWS = 'Windows';
 const String _LINUX = 'Linux';
@@ -406,14 +407,9 @@ final List<ShowcaseProject> ksShowcaseProjects = [
   ShowcaseProject(
     title: 'Docklyne',
     image: kaPulseX,
-    shortDescription:
-        "The Docklyne ecosystem will make boating more accessible.",
+    shortDescription: "The Docklyne ecosystem will make boating more accessible.",
     description: """
-        Docklyne is the state management for Flutter projects. It has four features:
-          - state management - (Getx)
-          - context-less routing
-          - dependency injection 
-          - reaction (side effects)
+        The Docklyne ecosystem will make boating more accessible for the modern consumer by securing reliable connections with trusted operations, enhancing communication.
         """,
     link: ProjectInfo(
       icon: kiLink,
@@ -432,7 +428,7 @@ final List<ShowcaseProject> ksShowcaseProjects = [
         'package',
         _FLUTTER.toLowerCase(),
         _DART.toLowerCase(),
-        'state management',
+        'getx state management',
       ],
     ),
     tech: ProjectInfo(
@@ -441,6 +437,7 @@ final List<ShowcaseProject> ksShowcaseProjects = [
       contents: [
         _FLUTTER.toUpperCase(),
         _DART.toUpperCase(),
+        _GETX.toUpperCase(),
       ],
     ),
     author: ProjectInfo(
@@ -515,42 +512,33 @@ final List<ShowcaseProject> ksShowcaseProjects = [
     ),
   ),
   ShowcaseProject(
-    title: 'Threads Logo Animation',
+    title: 'MPTV',
     image: kaThread,
     shortDescription:
-        "Animated Facebook Threads App Logo made with custom paths and painters",
-    description: """
-        Here, I provide you with 4 things:
-          1. Two versions of animated threads logo - stroked thread logo and filled threads logo
-          2. Custom Gradient slider with gradient thumb
-          3. Custom Gradient Text
-          4. Custom Gradient Icon Button
-        """,
+        "Online video streaming app. watch online movies, series, and short films. Easy to use, easy to watch, and user-friendly.",
+    description: """Online video streaming app. watch online movies, series, and short films. Easy to use, easy to watch, and user-friendly. The MPTV app is an all-in-one entertainment platform that has something for everyone. Itis the most popular and the best streaming service in Tanzania, Kenya, and the East Africa region.""",
     link: ProjectInfo(
       icon: kiLink,
       label: "Project Links",
       isLink: true,
       contents: [
-        "https://github.com/YeLwinOo-Steve/thread_logo_animation",
+        "https://mptv-watch-online-movies-series-and-short-films.en.softonic.com/android",
       ],
     ),
-    heroTag: 'threads_logo',
+    heroTag: 'mptv_logo',
     tags: ProjectInfo(
       icon: kiTag,
       label: 'Tags',
       isTag: true,
       contents: [
-        'animation',
-        _FLUTTER.toLowerCase(),
-        _DART.toLowerCase(),
+        _ANDROID.toLowerCase(),
       ],
     ),
     tech: ProjectInfo(
       icon: kiChip,
       label: 'Tools & Technologies',
       contents: [
-        _DART.toUpperCase(),
-        _FLUTTER.toUpperCase(),
+        _KOTLIN.toUpperCase(),
       ],
     ),
     author: ProjectInfo(
@@ -565,8 +553,6 @@ final List<ShowcaseProject> ksShowcaseProjects = [
       label: 'Available Platforms',
       contents: [
         _ANDROID,
-        _IOS,
-        _WEB,
       ],
     ),
   ),

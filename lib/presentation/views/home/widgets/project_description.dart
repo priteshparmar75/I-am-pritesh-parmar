@@ -1,4 +1,3 @@
-import 'package:atlas_icons/atlas_icons.dart';
 import 'package:flutter/material.dart';
 import 'package:pritesh/presentation/configs/configs.dart';
 import 'package:pritesh/presentation/utils/extensions/extensions.dart';

@@ -1,4 +1,3 @@
-import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:type_text/type_rich_text.dart';
 import 'package:pritesh/presentation/utils/extensions/extensions.dart';
@@ -16,6 +15,7 @@ class _CodeBlockState extends State<CodeBlock>
     with SingleTickerProviderStateMixin {
   late final AnimationController _controller;
   late final Animation<double> _slideEditor;
+
   @override
   void initState() {
     _controller = AnimationController(
@@ -69,11 +69,34 @@ class Editor extends StatelessWidget {
     this.isBackground = false,
   }) : super(key: key);
   final bool isBackground;
+  final messages = [
+    {
+      "command": r'$ find / name -"bug_free_code.dart"',
+      "response":
+          "> Error: No bug-free code is found!\n\n> Keep calm and debug on."
+    },
+    {
+      "command": r'$ sudo apt-get install motivation',
+      "response":
+          "> Installing... \n> Oops! Package not found. Try coffee instead ☕"
+    },
+    {
+      "command": r'$ git push origin happiness',
+      "response":
+          "> Error: Remote branch 'happiness' does not exist.\n> Create it yourself ❤️"
+    },
+    {
+      "command": r'$ ping productivity',
+      "response":
+          "> Reply from 127.0.0.1: time=999ms\n> Warning: Too many distractions found!"
+    },
+  ];
   final btnColors = [
     kYellow,
     kGreen,
     kRed,
   ];
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -117,26 +140,32 @@ class Editor extends StatelessWidget {
                   ),
               TypeRichText(
                 text: TextSpan(
-                  text: '\$ find / name -"life.dart"\n\n',
+                  text: '${messages[1]["command"]}\n\n',
                   style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                         color: kWhite,
                       ),
                   children: <TextSpan>[
                     TextSpan(
-                      text: '> Searching . . .\n\n',
-                      style: TextStyle(
-                        color: kSecondary,
-                      ),
-                    ),
-                    const TextSpan(
-                      text: '> Error: No life is found!\n\n',
-                      style: TextStyle(
+                      text: '${messages[1]["response"]}',
+                      style: const TextStyle(
                         color: kRed,
                       ),
                     ),
-                    const TextSpan(
-                      text: "> Since you are a programmer, you have no life!",
-                      style: TextStyle(
+                  ],
+                ),
+                duration: duration5000,
+              ),
+              const Spacer(),
+              TypeRichText(
+                text: TextSpan(
+                  text: '${messages[2]["command"]}\n\n',
+                  style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                        color: kWhite,
+                      ),
+                  children: <TextSpan>[
+                    TextSpan(
+                      text: '${messages[2]["response"]}',
+                      style: const TextStyle(
                         color: kRed,
                       ),
                     ),

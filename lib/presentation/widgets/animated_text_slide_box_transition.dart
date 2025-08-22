@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:logger/logger.dart';
 import 'package:pritesh/presentation/utils/extensions/extensions.dart';
 import 'animated_slide_box.dart';
 

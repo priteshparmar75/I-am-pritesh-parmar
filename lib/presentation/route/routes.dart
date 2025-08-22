@@ -1,7 +1,5 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:pritesh/data/model/showcase_project.dart';
-import 'package:pritesh/presentation/configs/configs.dart';
 import 'package:pritesh/presentation/utils/extensions/extensions.dart';
 import 'package:pritesh/presentation/views/about/about_view.dart';
 import 'package:pritesh/presentation/views/certificates/certificates_view.dart';

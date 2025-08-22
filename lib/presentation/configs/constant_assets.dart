@@ -18,7 +18,7 @@ const String kaCoffee = "$basePath$mePath/coffee.svg";
 /// project images
 const String projectPath = "/projects";
 const String kaPulseX = "$basePath$projectPath/docklyne.png";
-const String kaThread = "$basePath$projectPath/stable_hub.png";
+const String kaThread = "$basePath$projectPath/mptv.png";
 const String kaNotee = "$basePath$projectPath/my_life_compass.png";
 const String kaTheGoldenLand = "$basePath$projectPath/the_golden_land.png";
 const String kaAnimatedButtons = "$basePath$projectPath/animated_buttons.png";
@@ -45,10 +45,8 @@ const List<String> kaTools = [
 /// certificates
 const String certificatePath = "/certificates";
 const String kaGraphQLCerti = "$basePath$certificatePath/graphql.jpg";
-const String kaDeepLearningCerti =
-    "$basePath$certificatePath/deep_learning.jpg";
-const String kaPythonCerti =
-    "$basePath$certificatePath/intermediate_python.jpg";
+const String kaDeepLearningCerti = "$basePath$certificatePath/deep_learning.jpg";
+const String kaPythonCerti = "$basePath$certificatePath/intermediate_python.jpg";
 const String kaJSTCerti = "$basePath$certificatePath/jst_japan_asia.jpg";
 const String kaTMESEKCerti = "$basePath$certificatePath/tmesek.jpg";
 

@@ -1,7 +1,5 @@
-import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:logger/logger.dart';
 import 'package:pritesh/presentation/route/routes.dart';
 import 'package:pritesh/presentation/utils/extensions/extensions.dart';
 import 'package:pritesh/presentation/views/menu/menu_page.dart';

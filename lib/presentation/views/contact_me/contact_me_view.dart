@@ -1,6 +1,5 @@
 import 'dart:ui';
 
-import 'package:atlas_icons/atlas_icons.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:pretty_animated_buttons/pretty_animated_buttons.dart';

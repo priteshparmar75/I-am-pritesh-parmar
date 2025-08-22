@@ -1,6 +1,5 @@
 import 'dart:math';
 
-import 'package:atlas_icons/atlas_icons.dart';
 import 'package:flutter/material.dart';
 import 'package:visibility_detector/visibility_detector.dart';
 import 'package:pritesh/data/model/quote.dart';
@@ -308,7 +307,7 @@ class _FooterPageState extends State<FooterPage> with TickerProviderStateMixin {
         mainAxisSize: MainAxisSize.min,
       ),
       context.adaptive(noSpace, const Spacer()),
-      Text(
+      /*Text(
         ksCreditTo,
         style: Theme.of(context).textTheme.bodyMedium?.copyWith(
               color: _footerForegroundColor,
@@ -359,7 +358,7 @@ class _FooterPageState extends State<FooterPage> with TickerProviderStateMixin {
             .addInkWell(onTap: ksJuliusGWebsite.launchWebsite),
       ].addColumn(
           crossAxisAlignment: CrossAxisAlignment.start,
-          mainAxisSize: MainAxisSize.min),
+          mainAxisSize: MainAxisSize.min),*/
     ].addColumn(
       mainAxisSize: MainAxisSize.min,
       crossAxisAlignment: CrossAxisAlignment.start,
