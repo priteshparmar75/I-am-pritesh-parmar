@@ -5,39 +5,31 @@ My Personal Portfolio website made with Flutter 🍃🍒❤️
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](#)
 
 
-![Project Thumbnail](assets/images/thumbnails/portfolio_thumbnail.png)
-
 ## 📑 Overview
 
-This is my personal portfolio website v1 built with Flutter - available for multiple platforms : website , android, ios and windows
+This is my personal portfolio (v1) crafted with Flutter, designed to showcase my work, experiences, and achievements.
+It’s available across multiple platforms: Web, Android, iOS, and Windows.
 
 
-### 🗝️ Key Features: 
-- Home Page
-- Projects Page
-- Project Details Page
-- Experiences Page
-- Certificates Page
-- About Page
-- Contact Me Page
-- Firebase Integration
+✨ Features
+------------------------------------------------------------------
+🏠 Home Page – A welcoming landing page
+💼 Projects Page – Showcase of my projects
+📑 Project Details – In-depth project overviews
+🧑‍💻 Experiences Page – My professional journey
+🎓 Certificates Page – Proof of skills & accomplishments
+🙋 About Me Page – Get to know me better
+📬 Contact Me Page – Reach out easily
+🔥 Firebase Integration – Backend support for smooth functionality
 
-### 🔗 Preview Links:
+🔗 Preview Links:
 
 - 🕸️ [Web Version: https://yl0.me](https://yl0.me)
 - 📱 [Mobile Version](http://u.pc.cd/oJ17)
 
 ### 🪪 Project License:
-This project is licensed under [BSD 3-Clause License](LICENSE).
-
-### Want a short preview?
-
-![Walkghrough video](assets/images/thumbnails/portfolio_peek.gif)
+This project is licensed under [Apache License 2.0](LICENSE).
 
 
-Feel free to check it out and give it a ⭐ if you like it. 
-Follow me for more updates and more projects ...
-
-> Updated version is coming along the way ...
-
-Copyright (©️) 2023 __YE LWIN OO__
+📌 Developed & Maintained by **Pritesh Parmar**
+©️ 2025
