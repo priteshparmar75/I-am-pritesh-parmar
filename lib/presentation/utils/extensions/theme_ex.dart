@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:yelwinoo/presentation/configs/configs.dart';
+import 'package:pritesh/presentation/configs/configs.dart';
 
 const bold = FontWeight.w700;
 const semiBold = FontWeight.w600;

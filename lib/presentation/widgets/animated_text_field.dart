@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:yelwinoo/presentation/utils/extensions/extensions.dart';
-import 'package:yelwinoo/presentation/widgets/animated_horizontal_stick.dart';
-import 'package:yelwinoo/presentation/widgets/animated_slide_box.dart';
+import 'package:pritesh/presentation/utils/extensions/extensions.dart';
+import 'package:pritesh/presentation/widgets/animated_horizontal_stick.dart';
+import 'package:pritesh/presentation/widgets/animated_slide_box.dart';
 
 import '../configs/configs.dart';
 

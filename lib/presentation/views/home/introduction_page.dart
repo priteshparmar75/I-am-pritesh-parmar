@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:yelwinoo/presentation/utils/extensions/extensions.dart';
-import 'package:yelwinoo/presentation/utils/extensions/layout_adapter_ex.dart';
-import 'package:yelwinoo/presentation/widgets/widgets.dart';
+import 'package:pritesh/presentation/utils/extensions/extensions.dart';
+import 'package:pritesh/presentation/utils/extensions/layout_adapter_ex.dart';
+import 'package:pritesh/presentation/widgets/widgets.dart';
 
 import '../../configs/configs.dart';
 
@@ -151,10 +151,10 @@ class _IntroductionPageState extends State<IntroductionPage>
                   width: s50,
                 ),
             AnimatedHoverLink(
-              label: ksDiscord,
+              label: ksStackOverFlow,
               controller: _controller,
             ).addInkWell(
-              onTap: ksDiscordLink.launchWebsite,
+              onTap: ksStackoverflowLink.launchWebsite,
             ),
           ].addRow(),
         ].addColumn(

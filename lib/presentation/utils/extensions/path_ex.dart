@@ -1,8 +1,6 @@
 
 import 'dart:ui';
 
-import 'package:flutter/cupertino.dart';
-
 extension PathEx on Path {
   Path createAnimatedPath(
     double animationPercent,

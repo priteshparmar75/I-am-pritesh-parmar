@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:yelwinoo/data/model/activity.dart';
-import 'package:yelwinoo/presentation/route/route_transitions.dart';
-import 'package:yelwinoo/presentation/utils/extensions/extensions.dart';
-import 'package:yelwinoo/presentation/widgets/widgets.dart';
+import 'package:pritesh/data/model/activity.dart';
+import 'package:pritesh/presentation/route/route_transitions.dart';
+import 'package:pritesh/presentation/utils/extensions/extensions.dart';
+import 'package:pritesh/presentation/widgets/widgets.dart';
 
 import '../../../configs/configs.dart';
 

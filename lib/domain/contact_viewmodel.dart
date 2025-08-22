@@ -1,6 +1,6 @@
 import 'package:intl/intl.dart';
-import 'package:yelwinoo/data/model/contact.dart';
-import 'package:yelwinoo/services/abstract/contact_service.dart';
+import 'package:pritesh/data/model/contact.dart';
+import 'package:pritesh/services/abstract/contact_service.dart';
 
 class ContactViewModel {
   ContactViewModel({required this.service});

@@ -1,32 +1,32 @@
 import 'package:atlas_icons/atlas_icons.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:yelwinoo/data/model/activity.dart';
-import 'package:yelwinoo/data/model/certificate.dart';
-import 'package:yelwinoo/data/model/experience.dart';
-import 'package:yelwinoo/data/model/project_info.dart';
-import 'package:yelwinoo/data/model/quote.dart';
-import 'package:yelwinoo/data/model/route_model.dart';
-import 'package:yelwinoo/data/model/showcase_project.dart';
-import 'package:yelwinoo/data/model/social_media.dart';
-import 'package:yelwinoo/presentation/configs/configs.dart';
-import 'package:yelwinoo/presentation/route/routes.dart';
+import 'package:pritesh/data/model/activity.dart';
+import 'package:pritesh/data/model/certificate.dart';
+import 'package:pritesh/data/model/experience.dart';
+import 'package:pritesh/data/model/project_info.dart';
+import 'package:pritesh/data/model/quote.dart';
+import 'package:pritesh/data/model/route_model.dart';
+import 'package:pritesh/data/model/showcase_project.dart';
+import 'package:pritesh/data/model/social_media.dart';
+import 'package:pritesh/presentation/configs/configs.dart';
+import 'package:pritesh/presentation/route/routes.dart';
 
 /// constant strings are prefixed with [ks]
 const String ksFontFamily = "ShantellSans";
 
-const String ksFlutterDeveloperAnd = "Flutter Developer &";
-const String ksAiMlEnthusiast = "AI/ML Enthusiast";
+const String ksFlutterDeveloperAnd = "Android &";
+const String ksAiMlEnthusiast = "Flutter Developer";
 const String ksAiEnthusiast = "ai enthusiast";
 const String ksTechNerd = "a  tech  nerd";
 const String ksFlutterDev = "flutter  dev";
-const String coffeeAddict = "coffee addict";
+const String coffeeAddict = "tea addict";
 const String ksIntrovert = "an introvert";
 const String ksIm = "I'm";
 const String ksIntro = """
-  Hi, I'm Ye Lwin Oo!
+  Hi, I'm Pritesh Parmar!
     - a passionate mobile developer
-    - a CDM student from UCSM
-    - an avid reader
+    - a MCA student from MEFGI
+    - an 7+ years of experience
   """;
 const String ksSeeMyWork = "See my work";
 const String ksBrowseProjects = "Browse My Projects";
@@ -51,13 +51,14 @@ const String ksAllAboutMe = "All About Me";
 const String ksGithub = "Github";
 const String ksLinkedIn = "LinkedIn";
 const String ksDiscord = "Discord";
+const String ksStackOverFlow = "Stack OverFlow";
 const String ksSendMessage = 'Send Message';
 
 const String ksSlash = "/";
 const String ksLetsWork = "Let's work together!";
 const String ksFreelanceAvailability = "I'm available for Freelancing";
 const String ksContactInfo = "- Contact Info";
-const String ksWorkEmail = "yelwinoo.work@gmail.com";
+const String ksWorkEmail = "parmarpritesh75@gmail.com";
 const String ksWorkPhone = "+959 976294818";
 const String ksCreditTo = "- Big Thanks";
 const String ksDavidCobbina = "David Cobbina";
@@ -330,11 +331,10 @@ final List<Quote> ksQuotes = [
 ];
 
 const String ksFacebookLink = 'https://www.facebook.com/ye.lwin.oo.someone';
-const String ksGithubLink = 'https://github.com/YeLwinOo-Steve';
-const String ksLinkedInLink = 'https://www.linkedin.com/in/ye-lwin-oo-ucsm/';
+const String ksGithubLink = 'https://github.com/priteshparmar75';
+const String ksLinkedInLink = 'https://www.linkedin.com/in/pritesh-parmar-3136a2148/';
 const String ksMediumLink = 'https://yelwino.medium.com/';
-const String ksStackoverflowLink =
-    'https://stackoverflow.com/users/19209151/ye-lwin-oo';
+const String ksStackoverflowLink = 'https://stackoverflow.com/users/13446568/pritesh-parmar';
 const String ksDiscordLink = 'https://discordapp.com/users/809527318632071178';
 final List<SocialMedia> ksSocialMedia = [
   SocialMedia(
@@ -377,14 +377,14 @@ final List<SocialMedia> ksSocialMedia = [
       size: s18,
     ),
   ),
-  SocialMedia(
+  /*SocialMedia(
     link: ksDiscordLink,
     icon: FaIcon(
       FontAwesomeIcons.discord,
       color: kSecondary,
       size: s18,
     ),
-  ),
+  ),*/
 ];
 
 const String _FLUTTER = 'Flutter';
@@ -394,7 +394,7 @@ const String _HTML = 'Html';
 const String _CSS = 'Css';
 const String _JAVASCRIPT = 'Javascript';
 const String _GRAPHQL = "GraphQL";
-const String _ME = 'Ye Lwin Oo';
+const String _ME = 'Pritesh Parmar';
 
 const String _ANDROID = 'Android';
 const String _IOS = 'Ios';
@@ -404,13 +404,13 @@ const String _MAC = 'MacOs';
 const String _WEB = 'Web';
 final List<ShowcaseProject> ksShowcaseProjects = [
   ShowcaseProject(
-    title: 'Pulse-X State Management',
+    title: 'Docklyne',
     image: kaPulseX,
     shortDescription:
-        "Pulse-X is a state management library for Flutter projects.",
+        "The Docklyne ecosystem will make boating more accessible.",
     description: """
-        Pulse-X is the state management for Flutter projects. It has four features:
-          - state management
+        Docklyne is the state management for Flutter projects. It has four features:
+          - state management - (Getx)
           - context-less routing
           - dependency injection 
           - reaction (side effects)
@@ -420,11 +420,10 @@ final List<ShowcaseProject> ksShowcaseProjects = [
       label: "Project Links",
       isLink: true,
       contents: [
-        "https://pub.dev/packages/pulse_x",
-        "https://github.com/YeLwinOo-Steve/pulse_x",
+        "https://play.google.com/store/apps/details?id=com.docklyne.marina",
       ],
     ),
-    heroTag: 'pulse-x',
+    heroTag: 'docklyne',
     tags: ProjectInfo(
       icon: kiTag,
       label: 'Tags',
@@ -458,17 +457,15 @@ final List<ShowcaseProject> ksShowcaseProjects = [
         _ANDROID,
         _IOS,
         _WINDOWS,
-        _LINUX,
-        _MAC,
       ],
     ),
   ),
   ShowcaseProject(
-    title: 'Notee Personal Management App',
+    title: 'My Life Compass',
     image: kaNotee,
-    shortDescription: "Notee is a personal management app built with Flutter",
+    shortDescription: "My Life Compass by Ensele - Create a Profile and Get your daily Forecasts.",
     description: """
-        Notee is a personal management app that includes four parts :
+        My Life Compass by Ensele - Create a Profile and Get your daily Forecasts. Schedule an appointment with us in order to get detailed future forecasts or consultation for planning any event on an auspicious date and time app that includes four parts :
           - Note taking
           - To-Do List
           - Timer
@@ -479,9 +476,9 @@ final List<ShowcaseProject> ksShowcaseProjects = [
         label: "Project Links",
         isLink: true,
         contents: [
-          "https://github.com/YeLwinOo-Steve/notee",
+          "https://play.google.com/store/apps/details?id=com.ensele.ensele",
         ]),
-    heroTag: 'notee',
+    heroTag: 'mylifecompass',
     tags: ProjectInfo(
       icon: kiTag,
       label: 'Tags',
@@ -490,9 +487,6 @@ final List<ShowcaseProject> ksShowcaseProjects = [
         'app',
         _FLUTTER.toLowerCase(),
         _DART.toLowerCase(),
-        'note',
-        'to-do',
-        'timer',
       ],
     ),
     tech: ProjectInfo(

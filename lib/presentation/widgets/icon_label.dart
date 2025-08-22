@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:yelwinoo/presentation/configs/configs.dart';
-import 'package:yelwinoo/presentation/utils/extensions/extensions.dart';
+import 'package:pritesh/presentation/configs/configs.dart';
+import 'package:pritesh/presentation/utils/extensions/extensions.dart';
 
 import 'animated_text_slide_box_transition.dart';
 

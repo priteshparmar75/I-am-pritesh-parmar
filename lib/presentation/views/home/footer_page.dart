@@ -3,10 +3,10 @@ import 'dart:math';
 import 'package:atlas_icons/atlas_icons.dart';
 import 'package:flutter/material.dart';
 import 'package:visibility_detector/visibility_detector.dart';
-import 'package:yelwinoo/data/model/quote.dart';
-import 'package:yelwinoo/presentation/configs/configs.dart';
-import 'package:yelwinoo/presentation/utils/extensions/extensions.dart';
-import 'package:yelwinoo/presentation/widgets/widgets.dart';
+import 'package:pritesh/data/model/quote.dart';
+import 'package:pritesh/presentation/configs/configs.dart';
+import 'package:pritesh/presentation/utils/extensions/extensions.dart';
+import 'package:pritesh/presentation/widgets/widgets.dart';
 
 import 'widgets/footer_path.dart';
 

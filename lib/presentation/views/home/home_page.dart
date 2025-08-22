@@ -1,10 +1,10 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:yelwinoo/presentation/configs/configs.dart';
-import 'package:yelwinoo/presentation/utils/extensions/context_ex.dart';
-import 'package:yelwinoo/presentation/utils/extensions/extensions.dart';
-import 'package:yelwinoo/presentation/views/wrapper.dart';
-import 'package:yelwinoo/presentation/widgets/widgets.dart';
+import 'package:pritesh/presentation/configs/configs.dart';
+import 'package:pritesh/presentation/utils/extensions/context_ex.dart';
+import 'package:pritesh/presentation/utils/extensions/extensions.dart';
+import 'package:pritesh/presentation/views/wrapper.dart';
+import 'package:pritesh/presentation/widgets/widgets.dart';
 
 import 'introduction_page.dart';
 import 'showcase_projects_page.dart';
@@ -16,8 +16,7 @@ class HomePage extends StatefulWidget {
   State<HomePage> createState() => _HomePageState();
 }
 
-class _HomePageState extends State<HomePage>
-    with SingleTickerProviderStateMixin {
+class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin {
   final _scrollController = ScrollController();
   List<Widget> mainPages = [];
   final _key = GlobalKey();

@@ -2,10 +2,10 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:logger/logger.dart';
-import 'package:yelwinoo/presentation/route/routes.dart';
-import 'package:yelwinoo/presentation/utils/extensions/extensions.dart';
-import 'package:yelwinoo/presentation/views/menu/menu_page.dart';
-import 'package:yelwinoo/presentation/widgets/widgets.dart';
+import 'package:pritesh/presentation/route/routes.dart';
+import 'package:pritesh/presentation/utils/extensions/extensions.dart';
+import 'package:pritesh/presentation/views/menu/menu_page.dart';
+import 'package:pritesh/presentation/widgets/widgets.dart';
 
 import '../configs/configs.dart';
 

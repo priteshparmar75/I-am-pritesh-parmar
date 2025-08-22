@@ -1,15 +1,15 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:yelwinoo/data/model/showcase_project.dart';
-import 'package:yelwinoo/presentation/configs/configs.dart';
-import 'package:yelwinoo/presentation/utils/extensions/extensions.dart';
-import 'package:yelwinoo/presentation/views/about/about_view.dart';
-import 'package:yelwinoo/presentation/views/certificates/certificates_view.dart';
-import 'package:yelwinoo/presentation/views/contact_me/contact_me_view.dart';
-import 'package:yelwinoo/presentation/views/experience/experience_view.dart';
-import 'package:yelwinoo/presentation/views/home/home_page.dart';
-import 'package:yelwinoo/presentation/views/project_details/project_details_view.dart';
-import 'package:yelwinoo/presentation/views/projects/projects_view.dart';
+import 'package:pritesh/data/model/showcase_project.dart';
+import 'package:pritesh/presentation/configs/configs.dart';
+import 'package:pritesh/presentation/utils/extensions/extensions.dart';
+import 'package:pritesh/presentation/views/about/about_view.dart';
+import 'package:pritesh/presentation/views/certificates/certificates_view.dart';
+import 'package:pritesh/presentation/views/contact_me/contact_me_view.dart';
+import 'package:pritesh/presentation/views/experience/experience_view.dart';
+import 'package:pritesh/presentation/views/home/home_page.dart';
+import 'package:pritesh/presentation/views/project_details/project_details_view.dart';
+import 'package:pritesh/presentation/views/projects/projects_view.dart';
 
 import 'route_transitions.dart';
 

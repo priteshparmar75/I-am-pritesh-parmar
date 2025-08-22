@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:visibility_detector/visibility_detector.dart';
-import 'package:yelwinoo/data/model/showcase_project.dart';
-import 'package:yelwinoo/presentation/route/route_transitions.dart';
-import 'package:yelwinoo/presentation/route/routes.dart';
-import 'package:yelwinoo/presentation/utils/extensions/extensions.dart';
-import 'package:yelwinoo/presentation/views/home/widgets/project_description.dart';
-import 'package:yelwinoo/presentation/views/project_details/project_details_view.dart';
-import 'package:yelwinoo/presentation/widgets/widgets.dart';
+import 'package:pritesh/data/model/showcase_project.dart';
+import 'package:pritesh/presentation/route/route_transitions.dart';
+import 'package:pritesh/presentation/route/routes.dart';
+import 'package:pritesh/presentation/utils/extensions/extensions.dart';
+import 'package:pritesh/presentation/views/home/widgets/project_description.dart';
+import 'package:pritesh/presentation/views/project_details/project_details_view.dart';
+import 'package:pritesh/presentation/widgets/widgets.dart';
 
 import '../../configs/configs.dart';
 
@@ -66,8 +66,7 @@ class _ShowcaseProjectsPageState extends State<ShowcaseProjectsPage>
   Widget build(BuildContext context) {
     appBarHeight = Theme.of(context).appBarTheme.toolbarHeight!;
     containerHeight = context.screenHeight - (appBarHeight + s10);
-    imageWidth =
-        context.adaptive(context.screenWidth, context.percentWidth(s50) * 0.8);
+    imageWidth = context.adaptive(context.screenWidth, context.percentWidth(s50) * 0.8);
     return VisibilityDetector(
       key: const ValueKey("showcase_projects"),
       onVisibilityChanged: (info) {

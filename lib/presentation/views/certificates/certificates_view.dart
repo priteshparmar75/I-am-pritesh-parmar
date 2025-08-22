@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_animations/flutter_staggered_animations.dart';
-import 'package:yelwinoo/presentation/utils/extensions/extensions.dart';
-import 'package:yelwinoo/presentation/views/wrapper.dart';
-import 'package:yelwinoo/presentation/widgets/animated_horizontal_stick.dart';
-import 'package:yelwinoo/presentation/widgets/animated_text_slide_box_transition.dart';
+import 'package:pritesh/presentation/utils/extensions/extensions.dart';
+import 'package:pritesh/presentation/views/wrapper.dart';
+import 'package:pritesh/presentation/widgets/animated_horizontal_stick.dart';
+import 'package:pritesh/presentation/widgets/animated_text_slide_box_transition.dart';
 
 import '../../configs/configs.dart';
 import 'widgets/certificate_card.dart';

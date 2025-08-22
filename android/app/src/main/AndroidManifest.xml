@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.yelwinoo">
+    package="com.pritesh">
    <application
-        android:label="yelwinoo"
+        android:label="pritesh"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

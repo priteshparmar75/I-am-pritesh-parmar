@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:yelwinoo/presentation/route/route_transitions.dart';
+import 'package:pritesh/presentation/route/route_transitions.dart';
 
 class SlideWidget extends AnimatedWidget {
   const SlideWidget(

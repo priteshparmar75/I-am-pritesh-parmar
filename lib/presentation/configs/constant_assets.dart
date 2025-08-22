@@ -17,9 +17,9 @@ const String kaCoffee = "$basePath$mePath/coffee.svg";
 
 /// project images
 const String projectPath = "/projects";
-const String kaPulseX = "$basePath$projectPath/pulse_x.png";
-const String kaThread = "$basePath$projectPath/thread.png";
-const String kaNotee = "$basePath$projectPath/notee.png";
+const String kaPulseX = "$basePath$projectPath/docklyne.png";
+const String kaThread = "$basePath$projectPath/stable_hub.png";
+const String kaNotee = "$basePath$projectPath/my_life_compass.png";
 const String kaTheGoldenLand = "$basePath$projectPath/the_golden_land.png";
 const String kaAnimatedButtons = "$basePath$projectPath/animated_buttons.png";
 const String kaAIChatBot = "$basePath$projectPath/ai_chat_bot.png";

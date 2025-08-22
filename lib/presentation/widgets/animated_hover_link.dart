@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:yelwinoo/presentation/configs/constant_colors.dart';
-import 'package:yelwinoo/presentation/configs/constant_strings.dart';
-import 'package:yelwinoo/presentation/widgets/widgets.dart';
+import 'package:pritesh/presentation/configs/constant_colors.dart';
+import 'package:pritesh/presentation/configs/constant_strings.dart';
+import 'package:pritesh/presentation/widgets/widgets.dart';
 
 import '../configs/configs.dart';
 
