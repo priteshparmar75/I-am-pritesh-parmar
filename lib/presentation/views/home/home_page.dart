@@ -17,7 +17,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin {
   final _scrollController = ScrollController();
   List<Widget> mainPages = [];
-  final _key = GlobalKey();
+  //final _key = GlobalKey();
   bool _isDrawerOpen = false;
 
   @override
@@ -56,7 +56,7 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
   Widget build(BuildContext context) {
     return Wrapper(
       page: mainPages.addListView(
-          key: _key,
+          //key: _key,
           controller: _scrollController,
           physics: const ClampingScrollPhysics(),
           scrollDirection: Axis.vertical,

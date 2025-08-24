@@ -21,10 +21,10 @@ const String kaPulseX = "$basePath$projectPath/docklyne.png";
 const String kaThread = "$basePath$projectPath/mptv.png";
 const String kaNotee = "$basePath$projectPath/my_life_compass.png";
 const String kaTheGoldenLand = "$basePath$projectPath/the_golden_land.png";
-const String kaAnimatedButtons = "$basePath$projectPath/animated_buttons.png";
-const String kaAIChatBot = "$basePath$projectPath/ai_chat_bot.png";
+const String wooComers = "$basePath$projectPath/woocomers.png";
+const String legacy_marker = "$basePath$projectPath/legacy_marker.png";
 const String kaGraphQLNotes = "$basePath$projectPath/graphql_notes.png";
-const String kaIronMan = "$basePath$projectPath/iron_man.png";
+const String ssa = "$basePath$projectPath/ssa.png";
 const String kaDesignPatterns = "$basePath$projectPath/design_patterns.png";
 
 /// my tools
@@ -32,12 +32,14 @@ const String toolsPath = "/tools";
 const String kaDart = "$basePath$toolsPath/dart.svg";
 const String kaFlutter = "$basePath$toolsPath/flutter.svg";
 const String kaGraphQL = "$basePath$toolsPath/graphql.svg";
+const String kaKotlin = "$basePath$toolsPath/kotlin.svg";
 const String kaHtml = "$basePath$toolsPath/html5.svg";
 const String kaPython = "$basePath$toolsPath/python.svg";
 
 const List<String> kaTools = [
   kaHtml,
-  kaGraphQL,
+  //kaGraphQL,
+  kaKotlin,
   kaFlutter,
   kaDart,
 ];
@@ -45,8 +47,10 @@ const List<String> kaTools = [
 /// certificates
 const String certificatePath = "/certificates";
 const String kaGraphQLCerti = "$basePath$certificatePath/graphql.jpg";
-const String kaDeepLearningCerti = "$basePath$certificatePath/deep_learning.jpg";
-const String kaPythonCerti = "$basePath$certificatePath/intermediate_python.jpg";
+const String kaDeepLearningCerti =
+    "$basePath$certificatePath/deep_learning.jpg";
+const String kaPythonCerti =
+    "$basePath$certificatePath/intermediate_python.jpg";
 const String kaJSTCerti = "$basePath$certificatePath/jst_japan_asia.jpg";
 const String kaTMESEKCerti = "$basePath$certificatePath/tmesek.jpg";
 

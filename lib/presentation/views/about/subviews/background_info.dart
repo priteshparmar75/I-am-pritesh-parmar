@@ -42,16 +42,6 @@ class BackgroundInfo extends StatelessWidget {
           ),
           verticalSpaceMedium,
           Text(
-            ksMyLife,
-            style: Theme.of(context).textTheme.bodyLarge,
-          ),
-          verticalSpaceSmall,
-          Text(
-            ksProfession,
-            style: Theme.of(context).textTheme.bodyLarge,
-          ),
-          verticalSpaceMedium,
-          Text(
             ksWhatILove.toUpperCase(),
             style: Theme.of(context).textTheme.labelLarge,
           ),

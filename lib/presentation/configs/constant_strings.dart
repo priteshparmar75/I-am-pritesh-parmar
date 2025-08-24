@@ -12,6 +12,7 @@ import 'package:pritesh/presentation/route/routes.dart';
 
 /// constant strings are prefixed with [ks]
 const String ksFontFamily = "ShantellSans";
+const String title = "Pritesh";
 
 const String ksFlutterDeveloperAnd = "Android &";
 const String ksAiMlEnthusiast = "Flutter Developer";
@@ -74,12 +75,7 @@ const String ksSpecialization =
     "I specialize in Mobile Technologies and highly passionate about developing quality applications, open-source works and AI.";
 const String ksWhoAmI = 'Who Am I?';
 const String ksWhatILove = "What I Love To Do";
-const String ksBriefAboutMe =
-    "Hi! I'm a Front-end Software Engineer who is passionate about emerging Technologies and AI. I have fairly extensive amount of experience in developing high quality applications. I often work on freelance projects.";
-const String ksMyLife =
-    "I was a third year student from the University of Computer Studies, Mandalay, Myanmar. But I dropped out in 2020 because of Military Coup & COVID-19.";
-const String ksProfession =
-    "I started working as a Flutter Developer since 2019. Later, I fell in love with it. I'm eager to contribute in Flutter community. Recently, I've published my first state management package: Pulse-X and animated button library: Pretty Animated Buttons.";
+const String ksBriefAboutMe = "Hi! I'm a Mobile Application Developer a seasoned Android and Flutter developer with over 7 years of experience. \n\nMy expertise spans Java, Kotlin, Android, and Flutter app development, and I have a proven track record of contributing to both small-scale personal apps and complex, large-scale systems. I am passionate about creating high-quality, user-centric apps that provide real value.\n\nI'm committed to continuously improving my skills and staying up-to-date with the latest trends and innovations in mobile application development. Outside of coding, I enjoy exploring emerging technologies and working on both hardware and software projects.\n\nAlways eager to learn and grow, I'm excited to take on new challenges and explore fresh opportunities that push the boundaries of my knowledge and abilities.";
 
 const String ksMyTools =
     "I use a bunch of tools and technologies to make design and implementation process easier. ";
@@ -87,22 +83,24 @@ const String ksWeapon = "My favorite choice of weapon is ";
 const String ksFlutter = "Flutter & Dart";
 
 const String ksMobile = 'Mobile Technologies';
-const String ksWebAndOther = 'Web & Other Technologies';
-final List<String> ksMobileTech = ['Flutter', 'Dart'];
+const String ksWebAndOther = 'Web Technologies';
+const String ksOther = 'Other Technologies';
+final List<String> ksMobileTech = ['Android','Kotlin','Flutter','Dart','IOS'];
 final List<String> ksWebTech = [
   'HTML',
   'CSS',
-  'Three Js',
   'C',
   'Java',
 ];
 final List<String> ksOtherTech = [
   'Firebase',
-  'GraphQL',
-  'Appwrite',
-  'MongoDB',
-  'SQL',
-  'Python',
+  'Github',
+  'Android SDK',
+  'JetPack Component',
+  'MVVM Architecture',
+  'SQLite & Room',
+  'Koin & Dagger',
+  'Block & GetX Architecture',
 ];
 
 const String ksCoding = "Software Engineering";
@@ -121,17 +119,18 @@ final List<RouteModel> ksMenu = [
   RouteModel(label: ksExperience, route: Routes.experience),
   RouteModel(label: ksCertificates, route: Routes.certificates),
   RouteModel(label: ksAbout, route: Routes.about),
-  RouteModel(label: ksContact, route: Routes.contact),
+  //RouteModel(label: ksContact, route: Routes.contact),
 ];
 
 const String ksAwardsAndActivities = "Awards & Activities";
 const String ksAward = "Award I've won";
-const String ksAwardName = "Design Award by WIT (Web Innovative Talent Award)";
-const String ksAwardLink = "https://witaward.com/result/2020";
+const String ksAwardName = "Employee Of The Month at Das InfoMedia Pvt.Ltd";
+//const String ksAwardLink = "https://witaward.com/result/2020";
+const String? machineLearningLink = "https://www.linkedin.com/posts/pritesh-parmar-3136a2148_machine-learning-activity-6684011039148834816-2XUn?utm_source=share&utm_medium=member_desktop&rcm=ACoAACOygT8BeSaMEJFXI3yBjegREvZ64ZZGoio";
 const String ksAwardDetails =
     """
-- The biggest web development contest in Myanmar ( collaboration with Japan )
-- This project aims for foreigners and Myanmar citizens who are enthusiastic about Myanmar culture, cuisine, handicrafts and who want to pay a visit to famous places in Myanmar and who want to enhance their knowledge about various ethnic groups in Myanmar.
+🌟 Employee of the Month is awarded to recognize outstanding performance, dedication, and a positive impact on the team.
+👏 It highlights an individual’s hard work, achievements, and commitment as a role model for others.
 """;
 const String ksActivities = "Activities I've joined";
 final List<Activity> ksActivityList = [
@@ -140,95 +139,61 @@ final List<Activity> ksActivityList = [
     name: ksAwardName,
     icon: kiTrophy,
     details: ksAwardDetails,
-    link: ksAwardLink,
   ),
   Activity(
     title: ksActivities,
-    name:
-        "TFI SCALE Program (Temasek Foundation International Specialists' Community Action andLeadership Exchange Program - Singapore)",
+    name: "Certificate of participation in machine learning",
     icon: kiActivity,
-    details:
-        "This is a five-week Exchange Program with Singapore Polytechnic ( 3-weeks in Singapore and 2-weeks in Myanmar Learnt data analytics, design thinking and co-operation skills and applied them on the Coffee Farm Project",
+    details: "🏅 This certificate is proudly awarded for active participation in the Machine Learning program, showcasing dedication to learning cutting-edge AI concepts.\n\n📘 It recognizes the recipient’s effort in gaining practical knowledge and skills in machine learning applications.",
+    link: machineLearningLink,
   ),
-  Activity(
+  /*Activity(
     name:
         "JST Japan-Asia Youth Program (Sakura Science Exchange Program - Japan)",
     icon: kiActivity,
     details:
         "This is a 9-days Exchange Program at Miyakonojo College, Miyazaki, Japan\nLearnt basic IOT and made the POINT Traffic Control System ( Traffic lights control system with extended functionalities such as alerts when driver recklessly drive while red light is on )",
-  ),
+  ),*/
 ];
 
 final List<Experience> ksExperiences = [
   Experience(
-    company: "Simbolo Learning Platform",
-    position: "Flutter Instructor",
+    company: "Captus Technologies Pvt.Ltd",
+    position: "Sr.Android & Flutter Developer",
     responsibilities: [
-      "Taught over 30 students (batch 1 & batch 2)",
-      "Taught basic Dart Programming Language",
-      "Taught basic Flutter Widgets",
-      "Taught Provider & GetX state managements",
-      "Taught Networking and Local Storage",
-      "Taught Clean Code Principles and 5 Design Patterns",
+      "Published and maintained apps onGoogle Play Store and Apple App Store with version control usingGit",
+      "Built and deployed multi-flavored applications using build variants and custom Gradle configurations",
+      "Designed custom animations and transitions to enhance user experience and engagement",
     ],
-    startDate: DateTime(2023, 11),
+    startDate: DateTime(2023, 9),
     endDate: DateTime.now(),
   ),
   Experience(
-    company: "AYA Inno Labs (AYA Bank)",
-    position: "Senior Flutter Developer",
+    company: "SwiftWizz Consulting ",
+    position: "Sr.Android & Flutter Developer",
     responsibilities: [
-      "Software house of the second largest commercial bank in Myanamar",
-      "Closely collaborated with mobile developers, backend developers, UI/ UX designers and QA team for AYA Pay v3.0 Lite App",
-      """Mainly responsible for 
-        ● Project Architecture
-        ● Authentication flow,
-        ● OCR Scanning,
-        ● Third-party payments,
-        ● Vouchers, Deals & Rewards
-        ● Transaction history
-        """,
-        "Maintain AYA Pay Partner App used by tens of thousands of users", 
+      "Conduct code reviews and provide feedback to improve code quality",
+      "Develop and execute unittests and perform system testing to ensure software quality",
+      "Contribute to the continuous improvement of software development processes and best practices",
+      "Optimized app performance,reduced crashes, and ensured compatibility with latestOS versions",
+      "Mentored junior developers and onboarded new team members on project structure and tools",
     ],
-    startDate: DateTime(2022, 9),
-    endDate: DateTime.now(),
+    startDate: DateTime(2019, 8),
+    endDate: DateTime(2023, 9),
   ),
   Experience(
-    company: "Nexus Hub Solution",
-    position: "Mid-Senior Flutter Developer",
+    company: "Das Solution Pvt.Ltd",
+    position: "Android Developer",
     responsibilities: [
-      "Lead a team of 2 Flutter developers and worked closely with backend developer and UI/UX designers",
-      "Started learning Appwrite, Mobx and dynamic modelling in Flutter",
-      "Contributed in Music Player app, HR Management System and E-commerce app",
-      "Worked closely with UI/UX designer & Backend developer in developing Travel Agency Proprietary System",
+      "Ensuring app performance and stability across various Android devices and platforms.",
+      "Staying up-to-date with the latest Android technologies, including new Android versions, libraries, and APIs",
+      "Providing technical support and resolving issues related to Android applications.",
+      "Architected and implemented small projects such as health prediction app using AIML",
+      "Implemented small AIML projects - Activity Recognition, Symptoms Detection, etc"
     ],
-    startDate: DateTime(2022, 9),
-    endDate: DateTime(2023, 4),
-  ),
-  Experience(
-    company: "App.com.mm",
-    position: "Mid-Senior Flutter Developer",
-    responsibilities: [
-      "Lead and trained a team of 3 Flutter developers in developing mobile applications",
-      "Contributed features in Blogging app & E-commerce app",
-      "Worked on the delivery service mobile app",
-    ],
-    startDate: DateTime(2022, 5),
-    endDate: DateTime(2022, 9),
-  ),
-  Experience(
-    company: "7r48",
-    position: "Junior Flutter Developer",
-    responsibilities: [
-      "Started learning Flutter, GetX, Provider, Bloc and implementing small projects using Flutter",
-      "Worked closely with senior mobile developer and backend developer to develop Kaung Myat Denti Dental Clinic System mobile app",
-      "Worked on car service management system mobile app",
-      "Architected and implemented small projects such as TOTO lottery prediction app using AI backend using python",
-      "Implemented small python AI projects - Activity Recognition, Driver Drowsiness Detection, Football match prediction, JSON to excel file converter"
-    ],
-    type: JobType.remote,
-    startDate: DateTime(2019, 10),
-    endDate: DateTime(2022, 12),
+    type: JobType.fullTime,
+    startDate: DateTime(2018, 01),
+    endDate: DateTime(2019, 08),
   ),
 ];
 
@@ -336,14 +301,14 @@ const String ksMediumLink = 'https://yelwino.medium.com/';
 const String ksStackoverflowLink = 'https://stackoverflow.com/users/13446568/pritesh-parmar';
 const String ksDiscordLink = 'https://discordapp.com/users/809527318632071178';
 final List<SocialMedia> ksSocialMedia = [
-  SocialMedia(
+  /*SocialMedia(
     link: ksFacebookLink,
     icon: FaIcon(
       FontAwesomeIcons.facebook,
       color: kSecondary,
       size: s18,
     ),
-  ),
+  ),*/
   SocialMedia(
     link: ksGithubLink,
     icon: FaIcon(
@@ -360,14 +325,14 @@ final List<SocialMedia> ksSocialMedia = [
       size: s18,
     ),
   ),
-  SocialMedia(
+  /*SocialMedia(
     link: ksMediumLink,
     icon: FaIcon(
       FontAwesomeIcons.medium,
       color: kSecondary,
       size: s18,
     ),
-  ),
+  ),*/
   SocialMedia(
     link: ksStackoverflowLink,
     icon: FaIcon(
@@ -390,19 +355,14 @@ const String _FLUTTER = 'Flutter';
 const String _DART = 'Dart';
 const String _GETX = 'GetX';
 const String _FIREBASE = 'Firebase';
-const String _HTML = 'Html';
-const String _CSS = 'Css';
-const String _JAVASCRIPT = 'Javascript';
-const String _GRAPHQL = "GraphQL";
 const String _ME = 'Pritesh Parmar';
 
 const String _ANDROID = 'Android';
+const String _ANDROID_STUDIO = 'Android Studio';
 const String _KOTLIN = 'Kotlin';
 const String _IOS = 'Ios';
 const String _WINDOWS = 'Windows';
-const String _LINUX = 'Linux';
-const String _MAC = 'MacOs';
-const String _WEB = 'Web';
+
 final List<ShowcaseProject> ksShowcaseProjects = [
   ShowcaseProject(
     title: 'Docklyne',
@@ -422,7 +382,7 @@ final List<ShowcaseProject> ksShowcaseProjects = [
     heroTag: 'docklyne',
     tags: ProjectInfo(
       icon: kiTag,
-      label: 'Tags',
+      label: 'Tags1',
       isTag: true,
       contents: [
         'package',
@@ -458,6 +418,213 @@ final List<ShowcaseProject> ksShowcaseProjects = [
     ),
   ),
   ShowcaseProject(
+    title: 'Woo commerce App',
+    image: wooComers,
+    shortDescription:
+    "This app provides the ultimate online product purchase with their customers using PayPal or Another technic.Users can register and log in to the application. It views all the products in the app.",
+    description: """
+        This app provides the ultimate online product purchase with their customers using PayPal or Another technic. Users can
+register and log in to the application. It views all the products in the app.
+        """,
+    link: ProjectInfo(
+      icon: kiLink,
+      label: "Project Links",
+      isLink: true,
+      contents: [
+        "https://play.google.com/store/apps/details?id=com.wooCommerce",
+      ],
+    ),
+    heroTag: 'pretty_animated_buttons',
+    tags: ProjectInfo(
+      icon: kiTag,
+      label: 'Tags5',
+      isTag: true,
+      contents: [
+        'package',
+        _ANDROID.toLowerCase(),
+        'animation',
+      ],
+    ),
+    tech: ProjectInfo(
+      icon: kiChip,
+      label: 'Tools & Technologies',
+      contents: [
+        _KOTLIN.toUpperCase(),
+        _ANDROID_STUDIO.toUpperCase(),
+      ],
+    ),
+    author: ProjectInfo(
+      icon: kiPerson,
+      label: 'Developer',
+      contents: [
+        _ME,
+      ],
+    ),
+    platform: ProjectInfo(
+      icon: kiLaptop,
+      label: 'Available Platforms',
+      contents: [
+        _ANDROID,
+      ],
+    ),
+  ),
+  ShowcaseProject(
+    title: 'SSA Driver App',
+    image: ssa,
+    shortDescription: "Flappy Ironman game inspired by Flappy Bird Game",
+    description: """
+        This is the application for drivers who provide transportation services toGujaratGovernment Schools under Sarva Shiksha
+Abhiyan (SSA).
+An authorized driver will be able to access this application and all their trips will be recorded.
+The driver will take attendance of all students and they can see their earnings in the application.
+They will be tracked and notified in case of excessive speed and off-route driving.
+The SOS Call feature of the App will be helpful in case of emergencies.
+        """,
+    link: ProjectInfo(
+      icon: kiLink,
+      label: "Project Links",
+      isLink: true,
+      contents: [
+        "https://play.google.com/store/apps/details?id=com.ssaapplication",
+      ],
+    ),
+    heroTag: 'ssa',
+    tags: ProjectInfo(
+      icon: kiTag,
+      label: 'Tags6',
+      isTag: true,
+      contents: [
+        "School Monitoring App - SSA",
+        "Sarv Siksha Abhiyan",
+        _ANDROID.toLowerCase(),
+        _ANDROID_STUDIO.toLowerCase(),
+      ],
+    ),
+    tech: ProjectInfo(
+      icon: kiChip,
+      label: 'Tools & Technologies',
+      contents: [
+        _KOTLIN.toUpperCase(),
+        _ANDROID_STUDIO.toUpperCase(),
+      ],
+    ),
+    author: ProjectInfo(
+      icon: kiPerson,
+      label: 'Developer',
+      contents: [
+        _ME,
+      ],
+    ),
+    platform: ProjectInfo(
+      icon: kiLaptop,
+      label: 'Available Platforms',
+      contents: [
+        _ANDROID,
+      ],
+    ),
+  ),
+  ShowcaseProject(
+    title: 'Legacy Marker',
+    image: legacy_marker,
+    shortDescription:
+    "LegacyMarker is a modern way of cherishing the memories of your loved ones",
+    description: """
+        Legacy Marker offers printed plaques featuring QR codes that can be affixed to headstones or memorial plaques, serving as digital gateways to online memorial pages or information.
+        
+These plaques allow visitors to access personalized stories, photos, videos, and other lasting tributes by scanning the QR code, enhancing traditional memorials with modern connectivity.
+This approach preserves the visual integrity of monuments while enabling rich, digital legacy experiences for loved ones.
+        """,
+    link: ProjectInfo(
+      icon: kiLink,
+      label: "Project Links",
+      isLink: true,
+      contents: [
+        "https://legacymarker.com/",
+      ],
+    ),
+    heroTag: 'legacy_marker',
+    tags: ProjectInfo(
+      icon: kiTag,
+      label: 'Tags5',
+      isTag: true,
+      contents: [
+        'package',
+        _FLUTTER.toLowerCase(),
+        _DART.toLowerCase(),
+        'animation',
+      ],
+    ),
+    tech: ProjectInfo(
+      icon: kiChip,
+      label: 'Tools & Technologies',
+      contents: [
+        _FLUTTER.toUpperCase(),
+        _DART.toUpperCase(),
+        _ANDROID_STUDIO.toUpperCase(),
+      ],
+    ),
+    author: ProjectInfo(
+      icon: kiPerson,
+      label: 'Developer',
+      contents: [
+        _ME,
+      ],
+    ),
+    platform: ProjectInfo(
+      icon: kiLaptop,
+      label: 'Available Platforms',
+      contents: [
+        _ANDROID,
+        _IOS,
+      ],
+    ),
+  ),
+  ShowcaseProject(
+    title: 'MPTV',
+    image: kaThread,
+    shortDescription:
+    "Online video streaming app. watch online movies, series, and short films. Easy to use, easy to watch, and user-friendly.",
+    description: """Online video streaming app. watch online movies, series, and short films. Easy to use, easy to watch, and user-friendly. The MPTV app is an all-in-one entertainment platform that has something for everyone. Itis the most popular and the best streaming service in Tanzania, Kenya, and the East Africa region.""",
+    link: ProjectInfo(
+      icon: kiLink,
+      label: "Project Links",
+      isLink: true,
+      contents: [
+        "https://mptv-watch-online-movies-series-and-short-films.en.softonic.com/android",
+      ],
+    ),
+    heroTag: 'mptv_logo',
+    tags: ProjectInfo(
+      icon: kiTag,
+      label: 'Tags3',
+      isTag: true,
+      contents: [
+        _ANDROID.toLowerCase(),
+      ],
+    ),
+    tech: ProjectInfo(
+      icon: kiChip,
+      label: 'Tools & Technologies',
+      contents: [
+        _KOTLIN.toUpperCase(),
+      ],
+    ),
+    author: ProjectInfo(
+      icon: kiPerson,
+      label: 'Developer',
+      contents: [
+        _ME,
+      ],
+    ),
+    platform: ProjectInfo(
+      icon: kiLaptop,
+      label: 'Available Platforms',
+      contents: [
+        _ANDROID,
+      ],
+    ),
+  ),
+  ShowcaseProject(
     title: 'My Life Compass',
     image: kaNotee,
     shortDescription: "My Life Compass by Ensele - Create a Profile and Get your daily Forecasts.",
@@ -478,7 +645,7 @@ final List<ShowcaseProject> ksShowcaseProjects = [
     heroTag: 'mylifecompass',
     tags: ProjectInfo(
       icon: kiTag,
-      label: 'Tags',
+      label: 'Tags2',
       isTag: true,
       contents: [
         'app',
@@ -512,23 +679,29 @@ final List<ShowcaseProject> ksShowcaseProjects = [
     ),
   ),
   ShowcaseProject(
-    title: 'MPTV',
-    image: kaThread,
-    shortDescription:
-        "Online video streaming app. watch online movies, series, and short films. Easy to use, easy to watch, and user-friendly.",
-    description: """Online video streaming app. watch online movies, series, and short films. Easy to use, easy to watch, and user-friendly. The MPTV app is an all-in-one entertainment platform that has something for everyone. Itis the most popular and the best streaming service in Tanzania, Kenya, and the East Africa region.""",
+    title: 'ShopNRest',
+    image: kaTheGoldenLand,
+    shortDescription: "ShopNRest Operator App is a boat rental management platform designed for fleet operators to handle bookings, schedules, and vessel tracking efficiently.",
+    description: """
+       ShopNRest Operator App is a boat rental management platform designed for fleet operators to handle bookings, schedules, and vessel tracking efficiently. Operators can manage boat listings, assign captains, and monitor trips in realtime. The app streamlines rental operations with features like payment tracking, maintenance logging, andGPS integration.
+       Key Features :
+        1. Boat Listing Management
+        2.Marina Listing Management
+        3.Calendar Showing Booking, Pending Request, Block Boat, Transparent Booking Process
+        4.Flexible RentalOption
+        5.Check-In/Check-Out Process
+        """,
     link: ProjectInfo(
-      icon: kiLink,
-      label: "Project Links",
-      isLink: true,
-      contents: [
-        "https://mptv-watch-online-movies-series-and-short-films.en.softonic.com/android",
-      ],
-    ),
-    heroTag: 'mptv_logo',
+        icon: kiLink,
+        label: "Project Links",
+        isLink: true,
+        contents: [
+          "Not Available"
+        ]),
+    heroTag: 'the-golden-land',
     tags: ProjectInfo(
       icon: kiTag,
-      label: 'Tags',
+      label: 'Tags4',
       isTag: true,
       contents: [
         _ANDROID.toLowerCase(),
@@ -539,6 +712,7 @@ final List<ShowcaseProject> ksShowcaseProjects = [
       label: 'Tools & Technologies',
       contents: [
         _KOTLIN.toUpperCase(),
+        _ANDROID_STUDIO.toUpperCase()
       ],
     ),
     author: ProjectInfo(
@@ -554,312 +728,6 @@ final List<ShowcaseProject> ksShowcaseProjects = [
       contents: [
         _ANDROID,
       ],
-    ),
-  ),
-  ShowcaseProject(
-    title: 'The Golden Land (Myanmar) ',
-    image: kaTheGoldenLand,
-    shortDescription:
-        "The Golden Land (Myanmar) is a website for showing Myanmar's Culture.",
-    description: """
-        An all-in-one website that you can explore Myanmar's Traditions
-        
-        This is the web project showing the Culture, Cuisine, Festivals, Famous Places, Ethnic Groups and Handicrafts in Myanmar.
-        Some of the data may be inaccurate because I collect most of my data on the Internet.
-        """,
-    link: ProjectInfo(
-        icon: kiLink,
-        label: "Project Links",
-        isLink: true,
-        contents: [
-          "https://the-golden-land.vercel.app/",
-          "https://github.com/YeLwinOo-Steve/TheGoldenLand",
-        ]),
-    heroTag: 'the-golden-land',
-    tags: ProjectInfo(
-      icon: kiTag,
-      label: 'Tags',
-      isTag: true,
-      contents: [
-        'website',
-        _HTML.toLowerCase(),
-        _CSS.toLowerCase(),
-        _JAVASCRIPT.toLowerCase(),
-      ],
-    ),
-    tech: ProjectInfo(
-      icon: kiChip,
-      label: 'Tools & Technologies',
-      contents: [
-        _HTML.toUpperCase(),
-        _CSS.toUpperCase(),
-        _JAVASCRIPT.toUpperCase(),
-      ],
-    ),
-    author: ProjectInfo(
-      icon: kiPerson,
-      label: 'Developer',
-      contents: [
-        _ME,
-      ],
-    ),
-    platform: ProjectInfo(
-      icon: kiLaptop,
-      label: 'Available Platforms',
-      contents: [
-        _WEB,
-      ],
-    ),
-  ),
-  ShowcaseProject(
-    title: 'Pretty Animated Buttons',
-    image: kaAnimatedButtons,
-    shortDescription:
-        "A collection of ready-to-use smoothly animated pretty buttons written in Flutter",
-    description: """
-        Pretty Animated Buttons is a package for a collection of beautiful animated buttons which are highly customizable too.
-        Currently, a total of 12 animated buttons are available. More fancy buttons are coming soon...
-        """,
-    link: ProjectInfo(
-      icon: kiLink,
-      label: "Project Links",
-      isLink: true,
-      contents: [
-        "https://pub.dev/packages/pretty_animated_buttons",
-        "https://github.com/YeLwinOo-Steve/pretty_animated_buttons",
-      ],
-    ),
-    heroTag: 'pretty_animated_buttons',
-    tags: ProjectInfo(
-      icon: kiTag,
-      label: 'Tags',
-      isTag: true,
-      contents: [
-        'package',
-        _FLUTTER.toLowerCase(),
-        _DART.toLowerCase(),
-        'animation',
-      ],
-    ),
-    tech: ProjectInfo(
-      icon: kiChip,
-      label: 'Tools & Technologies',
-      contents: [
-        _FLUTTER.toUpperCase(),
-        _DART.toUpperCase(),
-      ],
-    ),
-    author: ProjectInfo(
-      icon: kiPerson,
-      label: 'Developer',
-      contents: [
-        _ME,
-      ],
-    ),
-    platform: ProjectInfo(
-      icon: kiLaptop,
-      label: 'Available Platforms',
-      contents: [
-        _ANDROID,
-        _IOS,
-        _LINUX,
-        _MAC,
-        _WEB,
-      ],
-    ),
-  ),
-  ShowcaseProject(
-    title: 'Flappy Ironman',
-    image: kaIronMan,
-    shortDescription: "Flappy Ironman game inspired by Flappy Bird Game",
-    description: """
-        This is Flappy Ironman game inspired by Flappy Bird Game. 
-        No external game engine packages are used.
-        Written in Flutter ...
-        """,
-    link: ProjectInfo(
-      icon: kiLink,
-      label: "Project Links",
-      isLink: true,
-      contents: [
-        "https://github.com/YeLwinOo-Steve/FlappyIronman",
-      ],
-    ),
-    heroTag: 'flappy_ironman',
-    tags: ProjectInfo(
-      icon: kiTag,
-      label: 'Tags',
-      isTag: true,
-      contents: [
-        'game',
-        _FLUTTER.toLowerCase(),
-        _DART.toLowerCase(),
-      ],
-    ),
-    tech: ProjectInfo(
-      icon: kiChip,
-      label: 'Tools & Technologies',
-      contents: [
-        _DART.toUpperCase(),
-        _FLUTTER.toUpperCase(),
-      ],
-    ),
-    author: ProjectInfo(
-      icon: kiPerson,
-      label: 'Developer',
-      contents: [
-        _ME,
-      ],
-    ),
-    platform: ProjectInfo(
-      icon: kiLaptop,
-      label: 'Available Platforms',
-      contents: [
-        _ANDROID,
-        _IOS,
-      ],
-    ),
-  ),
-  ShowcaseProject(
-    title: 'AI Chat Bot',
-    image: kaAIChatBot,
-    shortDescription: "AI chat bot using Flutter and Dialogflow.",
-    description: """
-        AI chat bot using Flutter and Dialogflow.
-        ⚠️ Dialogflow key is now expired so it won't work no more ...
-        """,
-    link: ProjectInfo(
-      icon: kiLink,
-      label: "Project Links",
-      isLink: true,
-      contents: [
-        "https://github.com/YeLwinOo-Steve/AIChatbot",
-      ],
-    ),
-    heroTag: 'ai_chat_bot',
-    tags: ProjectInfo(
-      icon: kiTag,
-      label: 'Tags',
-      isTag: true,
-      contents: [
-        'chat bot',
-        _FLUTTER.toLowerCase(),
-        _DART.toLowerCase(),
-      ],
-    ),
-    tech: ProjectInfo(
-      icon: kiChip,
-      label: 'Tools & Technologies',
-      contents: [
-        _DART.toUpperCase(),
-        _FLUTTER.toUpperCase(),
-      ],
-    ),
-    author: ProjectInfo(
-      icon: kiPerson,
-      label: 'Developer',
-      contents: [
-        _ME,
-      ],
-    ),
-    platform: ProjectInfo(
-      icon: kiLaptop,
-      label: 'Available Platforms',
-      contents: [
-        _ANDROID,
-        _IOS,
-      ],
-    ),
-  ),
-  ShowcaseProject(
-    title: 'GraphQL Notes',
-    image: kaGraphQLNotes,
-    shortDescription: "My Apollo graphQL Associate Certified Developer path",
-    description: """
-       My Apollo graphQL Associate Certified Developer path coding practice notes
-       All of these notes are available at Apollo GraphQL Tutorials
-        """,
-    link: ProjectInfo(
-      icon: kiLink,
-      label: "Project Links",
-      isLink: true,
-      contents: [
-        "https://github.com/YeLwinOo-Steve/graphql-associate-dev",
-      ],
-    ),
-    heroTag: 'graphql_notes',
-    tags: ProjectInfo(
-      icon: kiTag,
-      label: 'Tags',
-      isTag: true,
-      contents: ['GraphQL', 'note'],
-    ),
-    tech: ProjectInfo(
-      icon: kiChip,
-      label: 'Tools & Technologies',
-      contents: [
-        _GRAPHQL.toLowerCase(),
-      ],
-    ),
-    author: ProjectInfo(
-      icon: kiPerson,
-      label: 'Developer',
-      contents: [
-        _ME,
-      ],
-    ),
-    platform: ProjectInfo(
-      icon: kiLaptop,
-      label: 'Available Platforms',
-      contents: [],
-    ),
-  ),
-  ShowcaseProject(
-    title: 'Design Patterns',
-    image: kaDesignPatterns,
-    shortDescription:
-        "Design patterns usage with simple examples written in Dart",
-    description: """
-        Design patterns usage with simple examples written in Dart
-        Currently, not all design patterns are available yet.
-        Still developing ...
-        """,
-    link: ProjectInfo(
-      icon: kiLink,
-      label: "Project Links",
-      isLink: true,
-      contents: [
-        "https://github.com/YeLwinOo-Steve/design_patterns",
-      ],
-    ),
-    heroTag: 'design_patterns',
-    tags: ProjectInfo(
-      icon: kiTag,
-      label: 'Tags',
-      isTag: true,
-      contents: [
-        'design_patterns',
-        _DART.toLowerCase(),
-      ],
-    ),
-    tech: ProjectInfo(
-      icon: kiChip,
-      label: 'Tools & Technologies',
-      contents: [
-        _DART.toUpperCase(),
-      ],
-    ),
-    author: ProjectInfo(
-      icon: kiPerson,
-      label: 'Developer',
-      contents: [
-        _ME,
-      ],
-    ),
-    platform: ProjectInfo(
-      icon: kiLaptop,
-      label: 'Available Platforms',
-      contents: [],
     ),
   ),
 ];

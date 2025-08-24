@@ -2,6 +2,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:layout/layout.dart';
+import 'package:pritesh/presentation/configs/configs.dart';
 import 'package:url_strategy/url_strategy.dart';
 import 'package:pritesh/injection.dart';
 import 'package:pritesh/presentation/utils/extensions/extensions.dart';
@@ -19,17 +20,17 @@ void main() async {
   ]);
   Injection.setUp();
   setPathUrlStrategy();
-  runApp(const TucoYe());
+  runApp(const MyPortfolio());
 }
 
-class TucoYe extends StatelessWidget {
-  const TucoYe({super.key});
+class MyPortfolio extends StatelessWidget {
+  const MyPortfolio({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Layout(
       child: MaterialApp(
-        title: 'Pritesh',
+        title: title,
         scrollBehavior: AppScrollBehavior(),
         debugShowCheckedModeBanner: false,
         theme: context.theme(),

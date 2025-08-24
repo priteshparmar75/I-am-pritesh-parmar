@@ -51,12 +51,6 @@ class ToolsAndTechnologies extends StatelessWidget {
             const FlutterLogo(
               size: s24,
             ),
-            // Text(
-            //   ksFlutter.toUpperCase(),
-            //   style: Theme.of(context).textTheme.labelMedium?.copyWith(
-            //     fontWeight: FontWeight.w300,
-            //   ),
-            // ),
           ].addWrap(),
           verticalSpaceMedium,
           <Widget>[
@@ -71,11 +65,25 @@ class ToolsAndTechnologies extends StatelessWidget {
                     ),
               ),
               verticalSpaceLarge,
-              ...ksMobileTech
-                  .map(
-                    (tech) => Text(tech),
-                  )
-                  .toList(),
+              ...ksMobileTech.map((tech) => Text(tech),).toList(),
+            ].addColumn(crossAxisAlignment: context.adaptive(CrossAxisAlignment.center, CrossAxisAlignment.start),).addExpanded(),
+            <Widget>[
+              Text(
+                ksWebAndOther,
+                maxLines: 3,
+                softWrap: true,
+                textAlign: TextAlign.start,
+                style: Theme.of(context).textTheme.bodyLarge?.copyWith(
+                      fontWeight: FontWeight.w600,
+                    ),
+              ),
+              verticalSpaceLarge,
+              <Widget>[
+                ksWebTech.map((tech) => Text(tech)).toList().addColumn().addExpanded(),
+              ].addRow(
+                crossAxisAlignment: context.adaptive(
+                    CrossAxisAlignment.center, CrossAxisAlignment.start),
+              ),
             ]
                 .addColumn(
                   crossAxisAlignment: context.adaptive(
@@ -84,7 +92,7 @@ class ToolsAndTechnologies extends StatelessWidget {
                 .addExpanded(),
             <Widget>[
               Text(
-                ksWebAndOther,
+                ksOther,
                 maxLines: 3,
                 softWrap: true,
                 textAlign: TextAlign.center,
@@ -94,11 +102,6 @@ class ToolsAndTechnologies extends StatelessWidget {
               ),
               verticalSpaceLarge,
               <Widget>[
-                ksWebTech
-                    .map((tech) => Text(tech))
-                    .toList()
-                    .addColumn()
-                    .addExpanded(),
                 ksOtherTech
                     .map((tech) => Text(tech))
                     .toList()
@@ -113,19 +116,12 @@ class ToolsAndTechnologies extends StatelessWidget {
                   crossAxisAlignment: context.adaptive(
                       CrossAxisAlignment.center, CrossAxisAlignment.start),
                 )
-                .addExpanded(
-                  flex: 2,
-                ),
-          ].addRow(
-            crossAxisAlignment: CrossAxisAlignment.start,
+                .addExpanded(),
+          ].addRow(crossAxisAlignment: CrossAxisAlignment.start,
           ),
         ]
-            .addColumn(
-              crossAxisAlignment: CrossAxisAlignment.start,
-            )
-            .addPadding(
-              edgeInsets: context.symmetricPercentPadding(hPercent: s8),
-            ),
+            .addColumn(crossAxisAlignment: CrossAxisAlignment.start,)
+            .addPadding(edgeInsets: context.symmetricPercentPadding(hPercent: s8),),
         animation: techController,
         slidePosition: SlidePosition.bottom,
       ),

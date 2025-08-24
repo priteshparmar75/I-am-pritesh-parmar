@@ -20,7 +20,7 @@ class _WrapperState extends State<Wrapper> with TickerProviderStateMixin {
   double screenWidth = s0;
   double sectorWidth = s0;
 
-  final GlobalKey _globalKey = GlobalKey();
+  //final GlobalKey _globalKey = GlobalKey();
   late AnimationController _menuController;
   late AnimationController _loadingController;
   late AnimationController _appBarController;
@@ -112,7 +112,7 @@ class _WrapperState extends State<Wrapper> with TickerProviderStateMixin {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      key: _globalKey,
+      //key: _globalKey,
       extendBodyBehindAppBar: true,
       appBar: AnimatedAppBar(
         animation: _appBarController.view,

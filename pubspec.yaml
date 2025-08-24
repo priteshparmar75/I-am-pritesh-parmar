@@ -45,6 +45,7 @@ flutter:
     - assets/images/projects/
     - assets/images/certificates/
     - assets/images/tools/
+    - assets/images/personal/
   fonts:
     - family: Poppins
       fonts:

@@ -4,8 +4,7 @@ import 'package:pritesh/data/model/contact.dart';
 import 'package:pritesh/services/abstract/contact_service.dart';
 
 class ImplContactService extends ContactService {
-  final contactRef =
-      FirebaseFirestore.instance.collection("messages").withConverter<Contact>(
+  final contactRef = FirebaseFirestore.instance.collection("messages").withConverter<Contact>(
             fromFirestore: (snapshot, _) => Contact.fromJson(snapshot.data()!),
             toFirestore: (contact, _) => contact.toJson(),
           );

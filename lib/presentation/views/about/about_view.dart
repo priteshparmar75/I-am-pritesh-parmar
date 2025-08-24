@@ -14,7 +14,7 @@ class AboutView extends StatefulWidget {
 }
 
 class _AboutViewState extends State<AboutView> {
-  final _key = GlobalKey();
+  //final _key = GlobalKey();
   List<Widget> aboutPages = [];
 
   @override
@@ -31,7 +31,7 @@ class _AboutViewState extends State<AboutView> {
   Widget build(BuildContext context) {
     return Wrapper(
       page: aboutPages.addListView(
-        key: _key,
+       // key: _key,
         scrollDirection: Axis.vertical,
         physics: const ClampingScrollPhysics(),
       ),

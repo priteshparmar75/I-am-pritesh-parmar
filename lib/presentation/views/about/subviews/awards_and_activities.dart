@@ -114,24 +114,30 @@ class ActivityContainer extends StatelessWidget {
 
   Widget link(BuildContext context) {
     if (activity.link != null) {
-      return <Widget>[
-        Icon(kiLink,size: context.adaptive(s14,s24),),
-        horizontalSpaceMedium,
-        GestureDetector(
-          onTap: () {
-            activity.link!.launchWebsite();
-          },
-          child: Text(
-            activity.link!,
-            style: const TextStyle(
-              decoration: TextDecoration.underline,
-              decorationStyle: TextDecorationStyle.dotted,
-              decorationColor: kBlack26,
+      return Row(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Icon(kiLink, size: context.adaptive(s14, s24)),
+          horizontalSpaceMedium,
+          Expanded(
+            child: GestureDetector(
+              onTap: () {
+                activity.link!.launchWebsite();
+              },
+              child: Text(
+                activity.link!,
+                softWrap: true,
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+                style: const TextStyle(
+                  decoration: TextDecoration.underline,
+                  decorationStyle: TextDecorationStyle.dotted,
+                  decorationColor: kBlack26,
+                ),
+              ),
             ),
           ),
-        ),
-      ].addRow(
-        mainAxisSize: MainAxisSize.min,
+        ],
       );
     } else {
       return noSpace;

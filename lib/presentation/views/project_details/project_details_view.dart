@@ -25,7 +25,7 @@ class _ProjectDetailsViewState extends State<ProjectDetailsView>
   late AnimationController _titleController;
   late Animation<Offset> _appBarAnimation;
   late Animation<double> _mouseOpacityAnimation;
-  final GlobalKey _key = GlobalKey();
+  //final GlobalKey _key = GlobalKey();
   @override
   void initState() {
     super.initState();
@@ -70,7 +70,7 @@ class _ProjectDetailsViewState extends State<ProjectDetailsView>
   Widget build(BuildContext context) {
     ShowcaseProject project = widget.project;
     return Scaffold(
-      key: _key,
+      //key: _key,
       body: <Widget>[
         <Widget>[
           Positioned(

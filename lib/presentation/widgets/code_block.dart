@@ -78,7 +78,7 @@ class Editor extends StatelessWidget {
     {
       "command": r'$ sudo apt-get install motivation',
       "response":
-          "> Installing... \n> Oops! Package not found. Try coffee instead ☕"
+          "> Installing... \n> Oops! Package not found. Try tea instead ☕"
     },
     {
       "command": r'$ git push origin happiness',
