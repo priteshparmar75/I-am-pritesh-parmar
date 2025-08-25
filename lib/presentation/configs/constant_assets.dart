@@ -46,11 +46,9 @@ const List<String> kaTools = [
 
 /// certificates
 const String certificatePath = "/certificates";
-const String kaGraphQLCerti = "$basePath$certificatePath/graphql.jpg";
-const String kaDeepLearningCerti =
-    "$basePath$certificatePath/deep_learning.jpg";
-const String kaPythonCerti =
-    "$basePath$certificatePath/intermediate_python.jpg";
+const String courseraCerti = "$basePath$certificatePath/coursera.png";
+const String machineLearningCerti = "$basePath$certificatePath/machine_learning.jpg";
+const String kaPythonCerti = "$basePath$certificatePath/intermediate_python.jpg";
 const String kaJSTCerti = "$basePath$certificatePath/jst_japan_asia.jpg";
 const String kaTMESEKCerti = "$basePath$certificatePath/tmesek.jpg";
 

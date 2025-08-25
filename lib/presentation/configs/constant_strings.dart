@@ -199,16 +199,16 @@ final List<Experience> ksExperiences = [
 
 final List<Certificate> ksCertificateList = [
   Certificate(
-    name: "GraphQL Associate Certificate",
-    image: kaGraphQLCerti,
+    name: "Coursera Certificate",
+    image: courseraCerti,
     link: "",
   ),
   Certificate(
-    name: "Deep Learning Specialization (Coursera)",
-    image: kaDeepLearningCerti,
+    name: "Machine Learning (MEFGI)",
+    image: machineLearningCerti,
     link: "",
   ),
-  Certificate(
+  /*Certificate(
     name: "Intermediate Python (DataCamp)",
     image: kaPythonCerti,
     link: "",
@@ -222,7 +222,7 @@ final List<Certificate> ksCertificateList = [
     name: "TF SCALE Leadership Exchange Program",
     image: kaTMESEKCerti,
     link: "",
-  ),
+  ),*/
 ];
 
 const String _nikolaTesla = "Nikola Tesla";
